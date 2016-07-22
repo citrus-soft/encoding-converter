@@ -1,0 +1,33 @@
+{
+    "name": "citrus/encoding-converter",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "description": "Provides transparent transcoding of bitrix language files. Useful when bitrix installation and packages have different encodings",
+    "keywords": [
+        "bitrix",
+        "encoding",
+        "helper",
+        "lang",
+        "language files"
+    ],
+    "homepage": "https://composer.github.io/installers/",
+    "authors": [
+        {
+            "name": "Marat Shamshutdinov",
+            "email": "m.shamshutdinov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Citrus\\": "src/"}
+    },
+    "extra": {
+        "class": "Citrus\\EncodingConverter\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "ddeboer/transcoder": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.2@dev"
+    }
+}
