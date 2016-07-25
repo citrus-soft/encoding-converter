@@ -43,7 +43,7 @@ class Converter
      */
     public function convert($path) {
 
-        $finder = Finder::create()->files()->ignoreDotFiles(false)->in($path)->name('*.php');
+        $finder = Finder::create()->files()->ignoreDotFiles(false)->in($path)->name('/\.php$/');
         if ($this->bitrixLangOnly) {
             $finder->path('/\blang\/' . $this->getBitrixLang() .'\//');
         }
