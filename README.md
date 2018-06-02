@@ -6,21 +6,15 @@
 
 Допустим, сайт работает в `utf-8`, а нужный нам пакет `citrus/iblock.element.form` написан в `windows-1251`.
 
-Добавим `citrus/encoding-converter` как зависимость и укажем в ключе `extra.encoding-convert` название пакета и кодировку, в которую его нужно сконвертировать:
+Добавим `nook-ru/encoding-converter` как зависимость и укажем в ключе `extra.encoding-convert` название пакета и кодировку, в которую его нужно сконвертировать:
 
 ```
 {
     "require": {
         "php": ">=5.3",
         "citrus/iblock.element.form": "0.*",
-        "citrus/encoding-converter": "^0.1"
+        "nook-ru/encoding-converter": "^0.1"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.citrus-dev.ru"
-        },
-    ],
     "extra": {
     	"encoding-convert": {
     		"citrus/iblock.element.form": "utf-8"
