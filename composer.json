@@ -1,5 +1,5 @@
 {
-  "name": "nook-ru/encoding-converter",
+  "name": "citrus/encoding-converter",
   "type": "composer-plugin",
   "license": "MIT",
   "description": "Provides transparent transcoding of bitrix language files. Useful when bitrix installation and packages have different encodings",
@@ -10,7 +10,7 @@
     "lang",
     "language files"
   ],
-  "homepage": "https://github.com/nook-ru/encoding-converter",
+  "homepage": "https://github.com/citrus-soft/encoding-converter",
   "authors": [
     {
       "name": "Marat Shamshutdinov",
