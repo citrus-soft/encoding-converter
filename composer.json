@@ -1,5 +1,5 @@
 {
-  "name": "citrus/encoding-converter",
+  "name": "citrus-soft/encoding-converter",
   "type": "composer-plugin",
   "license": "MIT",
   "description": "Provides transparent transcoding of bitrix language files. Useful when bitrix installation and packages have different encodings",
